@@ -22,12 +22,12 @@ int main() {
   step = 20;    // step size
   fahr = lower; // farenheit value tracker
 
-  printf("Farenheit | Celsius\n");
-  printf("-------------------\n");
+  printf("Fahrenheit | Celsius\n");
+  printf("--------------------\n");
 
   while (fahr <= upper) {
     celsius = (5.0 / 9.0) * (fahr - 32.0); // conversion formula
-    printf("%10.0f %8.1f\n", fahr, celsius);
+    printf("%11.0f %8.1f\n", fahr, celsius);
     fahr = fahr + step; // step fahr value: 0, 20, ..., 300
   }
 
