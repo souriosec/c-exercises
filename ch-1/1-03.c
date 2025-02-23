@@ -18,7 +18,7 @@ int main() {
   int lower, upper, step;
 
   lower = 0;    // lower limit of temperature table
-  upper = 60;   // upper limit
+  upper = 300;  // upper limit
   step = 20;    // step size
   fahr = lower; // farenheit value tracker
 
